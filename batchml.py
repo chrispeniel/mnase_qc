@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import pickle
 
 # loading the saved model
-loaded_model = pickle.load(open(r'C:\Users\Asus\Desktop\mnase\trained_model_smote (1).sav', 'rb'))
+loaded_model = pickle.load(open(r'trained_model_smote (1).sav', 'rb'))
+ 
 
 def add_bg_from_url():
     st.markdown(
