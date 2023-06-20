@@ -8,23 +8,27 @@ import pickle
 loaded_model = pickle.load(open(r'trained_model_smote (1).sav', 'rb'))
 
 st.set_page_config(layout="wide")
+
+def add_blur_to_background_image(image_url):
+    # Add custom CSS to blur the background image
+    blur_css = f"""
+        <style>
+        .reportview-container {{
+            background: url('{image_url}') no-repeat center center fixed;
+            background-size: cover;
+            filter: blur(8px); /* Adjust the blur intensity as needed */
+            -webkit-filter: blur(8px); /* For Safari */
+        }}
+        </style>
+        """
+    st.markdown(blur_css, unsafe_allow_html=True)
+
+# Usage example
+background_image_url = "https://tu-dresden.de/med/mf/pch/ressourcen/bilder/fotos-mtz/IMG_1405.JPG/@@images/ac48e9bf-6ef9-40b9-a458-19c3e5aef95d.jpeg"
+add_blur_to_background_image(background_image_url)
+
+
  
-
-def add_bg_from_url():
-    st.markdown(
-         f"""
-         <style>
-         .stApp {{
-             background-image: url("https://tu-dresden.de/med/mf/pch/ressourcen/bilder/fotos-mtz/IMG_1405.JPG/@@images/ac48e9bf-6ef9-40b9-a458-19c3e5aef95d.jpeg");
-             background-attachment: fixed;
-             background-size: cover
-         }}
-         </style>
-         """,
-         unsafe_allow_html=True
-     )
-
-add_bg_from_url()
 # Define a function to make predictions
 def predict(df):
     predictions = []
