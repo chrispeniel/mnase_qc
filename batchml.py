@@ -15,7 +15,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://www.canva.com/design/DAFlPXhIZX0/3NMBgOT52GtcTHXguzWQyA/edit?utm_content=DAFlPXhIZX0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton");
+             background-image: url("https://www.dropbox.com/scl/fi/26omg03zr1pyqksnaz9mx/Untitled-design.png?dl=0&rlkey=1y36e61nkndoxkh9sw65aa1fk");
              background-attachment: fixed;
              background-size: cover
          }}
