@@ -10,7 +10,6 @@ loaded_model = pickle.load(open(r'trained_model_smote (1).sav', 'rb'))
 st.set_page_config(layout="wide")
 
 def add_blur_to_background_image():
- 
     blur_css = f"""
         <style>
         .reportview-container {{
@@ -24,8 +23,7 @@ def add_blur_to_background_image():
     st.markdown(blur_css, unsafe_allow_html=True)
 
  
- 
-add_blur_to_background_image()
+     
 
 
  
@@ -56,8 +54,10 @@ def predict(df):
 # Streamlit app main
 def main():
 
-     
  
+
+     
+    add_blur_to_background_image()
 
     # giving a title
 
