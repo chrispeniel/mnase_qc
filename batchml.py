@@ -9,20 +9,22 @@ loaded_model = pickle.load(open(r'trained_model_smote (1).sav', 'rb'))
 
 st.set_page_config(layout="wide")
 
-def add_blur_to_background_image():
-    blur_css = f"""
-        <style>
-        .reportview-container {{
-            background: url("https://tu-dresden.de/med/mf/pch/ressourcen/bilder/fotos-mtz/IMG_1405.JPG/@@images/ac48e9bf-6ef9-40b9-a458-19c3e5aef95d.jpeg") no-repeat center center fixed;
-            background-size: cover;
-            filter: blur(8px); /* Adjust the blur intensity as needed */
-            -webkit-filter: blur(8px); /* For Safari */
-        }}
-        </style>
-        """
-    st.markdown(blur_css, unsafe_allow_html=True)
 
- 
+def add_bg_from_url():
+    st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("https://tu-dresden.de/med/mf/pch/ressourcen/bilder/fotos-mtz/IMG_1405.JPG/@@images/ac48e9bf-6ef9-40b9-a458-19c3e5aef95d.jpeg");
+             background-attachment: fixed;
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
+
+add_bg_from_url()
      
 
 
@@ -57,7 +59,7 @@ def main():
  
 
      
-    add_blur_to_background_image()
+ 
 
     # giving a title
 
