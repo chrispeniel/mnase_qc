@@ -15,7 +15,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://medizininformatik-karte.de/content/4-unis/tudre/tudre_logo.jpg");
+             background-image: url("https://tu-dresden.de/med/mf/pch/ressourcen/bilder/fotos-mtz/IMG_1405.JPG/@@images/ac48e9bf-6ef9-40b9-a458-19c3e5aef95d.jpeg");
              background-attachment: fixed;
              background-size: cover
          }}
