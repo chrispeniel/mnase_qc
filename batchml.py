@@ -66,7 +66,7 @@ def main():
     text = "Felix Müller-Planitz Laboratory"
     st.write(f'<p style="font-weight:bold; font-size:30px; color:White; top:0px; right:10px;">{text}</p>', unsafe_allow_html=True)
 
-    st.title('Mnase Digestion QC Prediction App')
+    st.title('Mnase Digestion QC Prediction App🧬')
     
     st.write("MNase_QC web prediction app is a machine learning (ML) program that predicts if a sample is Good or Bad after obtaining data from the MNase_QC tool, which analyses electrophoresis images following MNase digestion of chromatin.")
     # File upload
