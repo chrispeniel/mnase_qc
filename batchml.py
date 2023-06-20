@@ -9,7 +9,7 @@ loaded_model = pickle.load(open(r'trained_model_smote (1).sav', 'rb'))
 
 st.set_page_config(layout="wide")
 
-def add_blur_to_background_image(image_url):
+def add_blur_to_background_image():
  
     blur_css = f"""
         <style>
