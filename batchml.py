@@ -15,7 +15,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://tu-dresden.de/med/mf/pch/ressourcen/bilder/fotos-mtz/IMG_1405.JPG/@@images/ac48e9bf-6ef9-40b9-a458-19c3e5aef95d.jpeg");
+             background-image: url("https://www.canva.com/design/DAFlPXhIZX0/3NMBgOT52GtcTHXguzWQyA/edit?utm_content=DAFlPXhIZX0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton");
              background-attachment: fixed;
              background-size: cover
          }}
