@@ -69,7 +69,7 @@ def main():
     original_title = '<p style="font-weight:bold;color:White; font-size:45px;">Mnase Digestion QC Prediction App</p>'
     st.markdown(original_title, unsafe_allow_html=True)
 
-    sub = '<p style="font-weight:bold;color:White; font-size:20px;">MNase_QC prediction app is a machine learning (ML) model that predicts if a MNase digested sample is Good or Bad after obtaining data from the MNase_QC tool, which analyses electrophoresis images following MNase digestion of chromatin</p>'
+    sub = '<p style="font-weight:bold;color:White; font-size:15px;">MNase_QC prediction app is a machine learning (ML) model that predicts if a MNase digested sample is Good or Bad after obtaining data from the MNase_QC tool, which analyses electrophoresis images following MNase digestion of chromatin</p>'
     st.markdown(sub, unsafe_allow_html=True)
     
      
