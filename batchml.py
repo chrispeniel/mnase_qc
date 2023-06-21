@@ -15,7 +15,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://uc7abb077e1b79c210e1c1c4cb60.dl.dropboxusercontent.com/cd/0/inline/B-VsvdewqrMxN428WPpzN1t0xBA_iDPAZR3Na_8EF4ZHVKZyAsrG_RakruFol-tmMgWu71E7sw17IzjnWR0P68s4XhXidBZNq-AEs9jkIS34paWOgymy2HubBwVvhReqZ2n_FT4R-5HpdG1rl03JEl-IykrtmiHCqqDexXhrVDc8Xw/file#");
+             background-image: url("https://www.dropbox.com/scl/fi/26omg03zr1pyqksnaz9mx/Untitled-design.png?raw=1&rlkey=1y36e61nkndoxkh9sw65aa1fk");
              background-attachment: fixed;
              background-size: cover
          }}
