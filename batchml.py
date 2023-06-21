@@ -68,16 +68,8 @@ def main():
 
 
     st.title('Mnase Digestion QC Prediction App🧬')
-    st.markdown(
-    """
-    <style>
-    .title-wrapper {
-        color: White;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-    )
+    original_title = '<p style="font-family:Courier; color:Blue; font-size: 20px;">Mnase Digestion QC Prediction App🧬</p>'
+    st.markdown(original_title, unsafe_allow_html=True)
     
     st.write("MNase_QC web prediction app is a machine learning (ML) program that predicts if a sample is Good or Bad after obtaining data from the MNase_QC tool, which analyses electrophoresis images following MNase digestion of chromatin.")
     # File upload
