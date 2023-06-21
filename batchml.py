@@ -73,7 +73,7 @@ def main():
     st.markdown(sub, unsafe_allow_html=True)
     
      
-    file = st.file_uploader(type="csv")
+    file = st.file_uploader( , type="csv")
     
     if file is not None:
         # Read the CSV file
