@@ -1,1 +1,1 @@
-# mnase_qc
+Mnase digestion is an important approach to studying chromatin structure and gene regulation. The quality of Mnase digestion must be evaluated to interpret experimental data correctly. The goal of this study was to create a machine-learning model that could predict the quality of Mnase digestion based on gel electrophoresis images obtained after Mnase digestion of yeast nuclei.  
