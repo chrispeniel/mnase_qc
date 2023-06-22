@@ -34,7 +34,7 @@ def predict(df):
     predictions = []
     thresholds = []
     probabilities = []
-    threshold = 0.5571428571428572  # Set the threshold value here
+    threshold = 0.4857142857142857  # Set the threshold value here
     
     for index, row in df.iterrows():
         features = row[['Mono', 'Under', 'Over']]
@@ -113,7 +113,7 @@ def main():
             ax.set_ylabel('Predicted Probability')
             ax.set_title('Predicted Probabilities for Lanes')
             # Add a horizontal line at the threshold value
-            threshold = 0.5571428571428572
+            threshold = 0.4857142857142857
             ax.axhline(y=threshold, color='red', linestyle='--', label='Threshold')
             plt.xticks(rotation=90)
 
