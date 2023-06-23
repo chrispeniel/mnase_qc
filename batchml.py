@@ -92,6 +92,28 @@ def main():
         # Display the predictions
         st.title("Predictions:")
 
+        # Display the predictions
+        st.title("Predictions:")
+
+        threshold = 0.4857142857142857
+
+        good_samples = result_df[result_df['Probability'] > threshold]
+
+        # Check the number of samples that cross the threshold
+        num_good_samples = len(good_samples)
+
+        # Display the results
+        if num_good_samples == 0:
+            st.write("No good samples found.")
+        elif num_good_samples == 1:
+            st.write("One good sample found. It can be taken for further analysis.")
+        else:
+            st.write(f"{num_good_samples} good samples found. The one with the highest probability should be considered for further analysis.")
+
+        # Display the good samples
+        st.title("Good Samples:")
+        st.dataframe(good_samples) 
+
          
 
          # Create a layout with two columns
