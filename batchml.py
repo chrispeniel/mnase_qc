@@ -92,9 +92,6 @@ def main():
         # Display the predictions
         st.title("Predictions:")
 
-        # Display the predictions
-        st.title("Predictions:")
-
         threshold = 0.4857142857142857
 
         good_samples = result_df[result_df['Probability'] > threshold]
