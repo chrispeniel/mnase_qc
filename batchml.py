@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pickle
 
 # loading the saved model
-loaded_model = pickle.load(open(r'trained_model_tl.sav', 'rb'))
+loaded_model = pickle.load(open(r'trained_model_smote(1).sav', 'rb'))
 
 st.set_page_config(layout="wide")
 
