@@ -63,7 +63,7 @@ def main():
 
     # giving a title
 
-    text = "Felix Müller-Planitz Laboratory🧬"
+    text = "Felix Müller-Planitz Laboratory🔬"
     st.write(f'<p style="font-weight:bold; font-size:30px; color:White; top:0px; right:10px;">{text}</p>', unsafe_allow_html=True)
 
     original_title = '<p style="font-weight:bold;color:White; font-size:45px;">MNase Digestion QC Prediction App</p>'
